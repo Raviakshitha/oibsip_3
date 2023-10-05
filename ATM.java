@@ -87,6 +87,7 @@ public class ATM
         Scanner scobj=new Scanner(System.in);
         System.out.println("Enter Amount:");
         int cash=scobj.nextInt();
+        
         if(cash<=Integer.parseInt(customerDetails.get(cnumber).get(2))){
             System.out.println("Your Amount is proceded");
             String amount=customerDetails.get(cnumber).get(2);
